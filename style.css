@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+canvas {
+  border: 1px solid black;
+  margin-bottom: 20px; /* Add some space below the canvas */
+}
+
+#atomInfo {
+  text-align: center;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  max-width: 580px; /* Slightly less than canvas for visual balance */
+}
+
+#atomInfo h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+#atomInfo p {
+  margin-bottom: 5px;
+  color: #555;
+}
+
+#atomInfo em {
+  color: #777;
+  font-size: 0.9em;
+}
